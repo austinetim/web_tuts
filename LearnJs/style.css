@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #4ffd3e;
+}
+.container-top{
+    box-sizing: border-box;
+    width: 100%;
+    background: rgb(41, 184, 202 0.5);
+}
