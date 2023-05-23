@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Miles to kilometers</h1>
+    <h1 id="h1">Miles to kilometers converter</h1>
 
-    <div class="container-top">
+    <div class="container top">
 
         <p>Type in a number of miles and click the botton <strong>Convert distance</strong> to convert  the distance to kilometers.</p>
-
-        <form method="post" action="" id="convert">
+        <form method="post"  id="convert">
 
             <input type="text"="distance" id="distance" placeholder="distance">
             <input type="submit" name="convertdist" value="Convert distance">
         </form>
+    </div>    
 
-        <div class="button" id="answer">
+    <div class="container bottom" id="answer">
             <h2 class="invisible"> Answer goes here</h2>
 
-        </div>
     </div>
-
+   
+        <!-- 
+     <p class="directories">Press the "K" key to switch to kilometer conversion, press the "M" key to switch to mile conversion</p> -->
+    
     <script lang="javascript" type="text/javascript" src="./script.js"></script>
 </body>
 </html>
