@@ -59,6 +59,7 @@ else if( key = `KeyM`){
      else{
          //dispay error
          answerDiv.innerHTML = `<h1>Please provide a number!</h2>`;
+         answerDiv.style.color = `red`
      }
     
  });
